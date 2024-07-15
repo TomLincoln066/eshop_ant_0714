@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationManager", "JwtAuthenticationManager\JwtAuthenticationManager.csproj", "{3AF3FE63-98A8-4279-83D8-5C428D22B63F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "..\AuthService\AuthService.csproj", "{AC3BCF7D-B430-439A-8349-50653F911C1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF3FE63-98A8-4279-83D8-5C428D22B63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF3FE63-98A8-4279-83D8-5C428D22B63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF3FE63-98A8-4279-83D8-5C428D22B63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF3FE63-98A8-4279-83D8-5C428D22B63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3BCF7D-B430-439A-8349-50653F911C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3BCF7D-B430-439A-8349-50653F911C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3BCF7D-B430-439A-8349-50653F911C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3BCF7D-B430-439A-8349-50653F911C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60DA6346-0C84-42F5-9144-C825A82EC5BA}
+	EndGlobalSection
+EndGlobal
